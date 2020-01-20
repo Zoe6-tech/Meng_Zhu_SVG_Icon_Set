@@ -1,0 +1,33 @@
+body{
+	background: #5B141A;
+	font-family: HElavetica,Arial,sans-serif;/*must more than one*/
+}
+
+#container{
+	margin:0 auto;
+	width: 980px;
+	height: 2000px;
+	background-color: white;
+	text-align: center;
+}
+
+h1{
+	font-size: 40px;
+	margin: 20px;
+}
+
+.img-wrapper{
+  display: inline-block;
+  width:40%;
+  padding: 10px 15px;
+}
+
+#Rat:hover #Rat_eye{
+	fill:white;
+}
+#Rat:hover #Rat_ear{
+	fill:white;
+}
+#Rat:hover #Rat_body{
+	fill:#E22128;
+}
