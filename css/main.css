@@ -1,26 +1,32 @@
 body{
 	background: #5B141A;
-	font-family: HElavetica,Arial,sans-serif;/*must more than one*/
+	font-family: "Times New Roman", Times, serif;
 }
 
 #container{
 	margin:0 auto;
 	width: 980px;
-	height: 2000px;
+	height: 0 auto;
 	background-color: white;
 	text-align: center;
 }
-
-h1{
-	font-size: 40px;
-	margin: 20px;
+h1 {
+  font-size: 40px;
+}
+p{
+	font-size: 20px;
 }
 
 .img-wrapper{
   display: inline-block;
-  width:40%;
+  width: 20%;
   padding: 10px 15px;
 }
+
+ .img-wrapper p{
+	 text-align: left;
+	 font-size: 15px;
+ }
 
 #Rat:hover #Rat_eye{
 	fill:white;
@@ -29,5 +35,157 @@ h1{
 	fill:white;
 }
 #Rat:hover #Rat_body{
+	fill:#E22128;
+}
+
+#Ox:hover #Ox_eye{
+	fill:white;
+}
+#Ox:hover #Ox_nose{
+	fill:white;
+}
+#Ox:hover #Ox_body{
+	fill:#E22128;
+}
+
+#Tiger:hover #Tiger_eye{
+	fill:white;
+}
+#Tiger:hover #Tiger_face{
+	fill:white;
+}
+#Tiger:hover #Tiger_nose {
+	fill:white;
+}
+#Tiger:hover #Tiger_signal {
+	fill:white;
+}
+#Tiger:hover #Tiger_body{
+	fill:#E22128;
+}
+
+#Rabbit:hover #Rabbit_eye{
+	fill:white;
+}
+#Rabbit:hover #Rabbit_ear{
+	fill:white;
+}
+#Rabbit:hover #Rabbit_body{
+	fill:#E22128;
+}
+
+#Dargon:hover #Dargon_eye{
+	fill:white;
+}
+#Dargon:hover #Dargon_nose{
+	fill:white;
+}
+#Dargon:hover #Dargon_flakes{
+	fill:white;
+}
+#Dargon:hover #Dargon_body{
+	fill:#E22128;
+}
+#Dargon{
+
+
+}
+
+#Snake:hover #Snake_eye{
+	fill:white;
+}
+#Snake:hover #Snake_nose{
+	fill:white;
+}
+#Snake:hover #Snake_detail{
+	fill:white;
+}
+#Snake:hover #Snake_body{
+	fill:#E22128;
+}
+#Snake:hover #Snake_tongue{
+	fill:#E22128;
+}
+
+
+#Horse:hover #Horse_eye{
+	fill:white;
+}
+#Horse:hover #Horse_nose{
+	fill:white;
+}
+#Horse:hover #Horse_face{
+	fill:white;
+}
+#Horse:hover #Horse_body{
+	fill:#E22128;
+}
+
+#Goat:hover #Goat_eye{
+	fill:white;
+}
+#Goat:hover #Goat_nose{
+	fill:white;
+}
+#Goat:hover #Goat_horn{
+	fill:white;
+}
+#Goat:hover #Goat_tail{
+	fill:white;
+}
+#Goat:hover #Goat_body{
+	fill:#E22128;
+}
+
+#Monkey:hover #Monkey_eye{
+	fill:white;
+}
+#Monkey:hover #Monkey_nose{
+	fill:white;
+}
+#Monkey:hover #Monkey_ear{
+	fill:white;
+}
+#Monkey:hover #Monkey_peach{
+	fill:white;
+}
+#Monkey:hover #Monkey_body{
+	fill:#E22128;
+}
+
+
+#Rooster:hover #Rooster_eye{
+	fill:white;
+}
+#Rooster:hover #Rooster_feather{
+	fill:white;
+}
+#Rooster:hover #Rooster_body{
+	fill:#E22128;
+}
+
+#Dog:hover #Dog_eye{
+	fill:white;
+}
+#Dog:hover #Dog_nose{
+	fill:white;
+}
+#Dog:hover #Dog_body{
+	fill:#E22128;
+}
+
+#Pig:hover #Pig_eye{
+	fill:white;
+}
+#Pig:hover #Pig_nose{
+	fill:white;
+}
+#Pig:hover #Pig_ear{
+	fill:white;
+}
+#Pig:hover #Pig_tail{
+	fill:white;
+}
+#Pig:hover #Pig_body{
 	fill:#E22128;
 }
